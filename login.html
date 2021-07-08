@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Team 4 - Log In</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <form action="auth.php" method="post">
+            <div id="top-title">Team 4</div><br><br><br><br>
+            <div id="cont-signIn">
+                <div id="form-title">
+                    Log In
+                </div>
+
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">email</i>
+                    </div>
+                    <input id="usernameLog" name="usernameLog" placeholder="Username" type="text" required><span class="required">*</span>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">vpn_key</i>
+                    </div>
+                    <input id="password" name="passwordLog" placeholder="Password" type="password" autocomplete="off" required><span class="required">*</span>
+                </div>
+
+                <div class="clearfix"></div><br>
+                <div class="privacy">
+                <input id="Sin" name="submit" type="submit" value="Log In"><br><br></div>
+        </form>
+        <form action="register.html">
+            <div class="register">
+                Don't have an account yet?<br>
+                <a href="register.html"><button id="sign-btn">Sign Up</button></a>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

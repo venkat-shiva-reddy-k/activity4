@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin: 1;
+  padding: 1;
+  font-family: "Raleway", cyrillic-ext;
+  color: #f2f2f2;
+  background-color: #303641;
+}
+
+#cont-signIn {
+  background-color: #1d1f20;
+  position: relative;
+  top: 15%;
+  margin: auto;
+  width: 400px;
+  height: 380px;
+  border-radius: 0.35em;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#cont-signUp {
+  background-color: #1d1f20;
+  position: relative;
+  top: 9%;
+  margin: auto;
+  width: 400px;
+  height: 480px;
+  border-radius: 0.35em;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#form-title {
+  position: relative;
+  background-color: #1a1c1d;
+  width: 100%;
+  padding: 20px 0px;
+  border-radius: 0.35em;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#top-title {
+  position: relative;
+  top: 1%;
+  background-color: #1a1c1d;
+  width: 100%;
+  padding: 20px 0px;
+  border-radius: 0.35em;
+  font-size: 44px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.input {
+  margin: auto;
+  width: 260px;
+  border-radius: 4px;
+  background-color: #373b3d;
+  padding: 8px 0px;
+  margin-top: 15px;
+}
+
+.input-addon {
+  float: left;
+  background-color: #373b3d;
+  border: 1px solid #373b3d;
+  padding: 4px 8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+input[type="text"] {
+  color: #999999;
+  margin: 0;
+  background-color: #373b3d;
+  border: 1px solid #373b3d;
+  padding: 6px 0px;
+  border-radius: 3px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #373b3d;
+}
+
+input[type="password"] {
+  color: #999999;
+  margin: 0;
+  background-color: #373b3d;
+  border: 1px solid #373b3d;
+  padding: 6px 0px;
+  border-radius: 3px;
+}
+
+input[type="password"]:focus {
+  border: 1px solid #373b3d;
+}
+
+input[type="email"] {
+  color: #999999;
+  margin: 0;
+  background-color: #373b3d;
+  border: 1px solid #373b3d;
+  padding: 6px 0px;
+  border-radius: 3px;
+}
+
+input[type="email"]:focus {
+  border: 1px solid #373b3d;
+}
+
+.privacy {
+  margin-top: 15px;
+  position: relative;
+  font-size: 12px;
+  bottom: 0%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.marg {
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  padding: 6px 25px;
+  background: #373e4a;
+  color: #c1c3c6;
+  font-weight: bold;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.register {
+  margin: auto;
+  padding: 16px 0;
+  text-align: center;
+  margin-top: 20px;
+  width: 85%;
+  border-top: 1px solid #c1c3c6;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#sign-btn {
+  margin-top: 10px;
+  padding: 6px 25px;
+  background: #373e4a;
+  color: #c1c3c6;
+  font-weight: bold;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.required {
+  color: red;
+}

@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Team 4 - Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <form action="insert.php" method="POST">
+            <div id="top-title">Team 4</div><br><br><br>
+                <div id="cont-signUp">
+                    <div id="form-title">
+                        Registration
+                    </div>
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+                        <input id="username" placeholder="Username" type="text" name="username" required><span class="required">*</span>
+                    </div>
+
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">email</i>
+                        </div>
+                        <input id="email" placeholder="Email Id" type="email" name="email" required><span class="required">*</span>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">vpn_key</i>
+                        </div>
+                        <input id="password" placeholder="Password" type="password" name="password" autocomplete="off" required><span class="required">*</span>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">password</i>
+                        </div>
+                        <input id="conf_password" placeholder="Confirm Password" type="password" name="confirmPassword" autocomplete="off" required><span class="required">*</span>
+                    </div>
+                        
+                    <div class="clearfix"></div>
+                        
+                    <div class="privacy">
+                        <input id="Sup" type="submit" value="Sign Up" name="submit"><br><br></div>
+        </form>
+    
+                <div class="clearfix"></div>
+
+        <form action="login.html">
+                <div class="register">
+                    Already have an account?<br>
+                    <a href="login.html"><button id="sign-btn">Log In</button></a>
+                </div>
+        </form>
+            </div>
+        </div>
+    </body>
+</html>
